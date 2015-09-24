@@ -8,6 +8,6 @@ public class InputRunner
 		//myThing.start
 		
 		PopupController myInput = new PopupController();
-		myInput.start;
+		myInput.start();
 	}
 }
