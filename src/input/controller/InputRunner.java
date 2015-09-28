@@ -4,8 +4,8 @@ public class InputRunner
 {
 	public static void main (String [] args)
 	{
-		//Thing myThing = newThing;
-		//myThing.start
+		//Thing myThing = newThing();
+		//myThing.start();
 		
 		PopupController myInput = new PopupController();
 		myInput.start();
