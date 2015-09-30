@@ -41,6 +41,11 @@ public class PopupController
 		String tempWeight = myPopups.grabAnswer("Type in your weight.");
 		double myWeight;
 		
+		while(!isDouble(tempWeight))
+		{
+			tempWeight = myPopups.grabAnswer("Type in a positive decimal number for your weight!!!");
+		}
+		
 		if(isDouble(tempWeight))
 		{
 			myWeight = Double.parseDouble(tempWeight);

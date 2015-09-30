@@ -12,6 +12,9 @@ public class Thingy
 	private int age;
 	private double weight;
 
+	/**
+	 * Sets default values for name, age, and weight.  They are ridiculous values
+	 */
 	public Thingy()
 	{
 	
@@ -20,6 +23,13 @@ public class Thingy
 		weight = 150;
 	
 	}
+	
+	/**
+	 * The constructor 
+	 * @param name The name of your Thingy
+	 * @param age The age of your Thingy
+	 * @param weight The weight of your Thingy
+	 */
 	public Thingy(String name, int age, double weight)
 	{
 		//this. refers to the current instance of this object (A thingy)
@@ -39,5 +49,21 @@ public class Thingy
 	public double getWeight()
 	{
 		return weight;
+	}
+	
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setAge(int age)
+	{
+		this.age = age;
+	}
+	
+	public void setWeight(double weight)
+	{
+		this.weight = weight;
 	}
 }
