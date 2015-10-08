@@ -66,7 +66,7 @@ public class PopupController
 		
 		try 
 		{
-			int temp = Integer.parseInt(input);
+			int tempAge = Integer.parseInt(input);
 			isInt = true;
 		}
 		catch(NumberFormatException error)
@@ -83,7 +83,7 @@ public class PopupController
 		
 		try
 		{
-			double temp = Double.parseDouble(input);
+			double tempWeight = Double.parseDouble(input);
 			isDouble = true;
 		}
 		catch(NumberFormatException error)
